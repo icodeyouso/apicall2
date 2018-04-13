@@ -32,7 +32,7 @@ var mydata = get_json("https://www.fema.gov/api/open/v1/DisasterDeclarationsSumm
 
 app.get('/',function(req,res){
     res.sendFile('./index.html');
-    //It will find and locate index.html from View or Scripts
+ 
   });
 
 var fs = require("fs");
